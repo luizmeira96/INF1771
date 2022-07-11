@@ -1,0 +1,26 @@
+:- dynamic root/1.
+
+root("E um mamifero?").
+
+:- dynamic pergunta_s/2.
+
+pergunta_s("E um mamifero?", "Tem listras?").
+pergunta_s("E um passaro?", "Ele voa?").
+
+:- dynamic animal_s/2.
+
+animal_s("Tem listras?", "E uma zebra?").
+animal_s("Ele voa?", "E uma Ã¡guia?").
+animal_s("Ele come banana?", "E um macaco?").
+
+:- dynamic pergunta_n/2.
+
+pergunta_n("E um mamifero?", "E um passaro?").
+pergunta_n("Tem listras?", "Ele come banana?").
+
+:- dynamic animal_n/2.
+
+animal_n("Ele voa?", "E um pinguim?").
+animal_n("É um passaro?", "E um lagarto?").
+animal_n("Ele come banana?", "E um leao?").
+
