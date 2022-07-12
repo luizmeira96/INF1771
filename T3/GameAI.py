@@ -289,6 +289,10 @@ class GameAI():
         if next_position:
             return self.GetCharPosition(position_forward) != "!"
 
+    """""""""""""""""""""""""""""""""
+    A* para buscar powerups e gols
+    """""""""""""""""""""""""""""""""
+    
      def GetAllPowerupsPositions(self):
         powerups_positions = []
         for y in range(34):
