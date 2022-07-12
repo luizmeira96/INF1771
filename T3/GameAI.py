@@ -290,7 +290,7 @@ class GameAI():
             return self.GetCharPosition(position_forward) != "!"
 
     """""""""""""""""""""""""""""""""
-    A* para buscar powerups e gols
+    A* para buscar powerups e golds
     """""""""""""""""""""""""""""""""
     
      def GetAllPowerupsPositions(self):
